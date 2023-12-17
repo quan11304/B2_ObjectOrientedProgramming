@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03a1eb66-a9e1-4389-833c-4fe4130e793c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Lab1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Subsection_1_1/Exercise_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Subsection_1_1/Exercise_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Subsection_1_1/TenHelloWorlds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Subsection_1_1/Exercise_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Subsection_1_1/Exercise_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Subsection_1_1/UseThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Subsection_1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Subsection_1_2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +33,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2YstN3KTyba0xuE4D98fILrGLDP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,14 +50,28 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "terminal"
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Quan Hoang\Programming\Java\B2_OOP\Lab1\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TenHelloWorlds">
     <configuration name="Subsection_1_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Subsection_1_2" />
       <module name="Lab1" />
@@ -55,8 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TenHelloWorlds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TenHelloWorlds" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TenHelloWorlds" />
         <item itemvalue="Application.Subsection_1_2" />
       </list>
     </recent_temporary>
@@ -72,6 +104,7 @@
       <workItem from="1701326079923" duration="522000" />
       <workItem from="1701326740013" duration="81000" />
       <workItem from="1701327088625" duration="3754000" />
+      <workItem from="1702820118092" duration="4057000" />
     </task>
     <servers />
   </component>
@@ -93,5 +126,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
