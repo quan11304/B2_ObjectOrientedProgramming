@@ -1,0 +1,72 @@
+a. Omitting the ;
+
+HelloWorld.java:3: error: ';' expected
+        System.out.println("Hello World!")
+                                          ^
+1 error
+
+
+b. Omitting the first "
+
+HelloWorld.java:3: error: ')' expected
+        System.out.println(Hello World!");
+                                ^
+HelloWorld.java:3: error: not a statement
+        System.out.println(Hello World!");
+                                 ^
+HelloWorld.java:3: error: ';' expected
+        System.out.println(Hello World!");
+                                      ^
+HelloWorld.java:3: error: unclosed string literal
+        System.out.println(Hello World!");
+                                       ^
+4 errors
+
+
+c. Omitting the second "
+
+HelloWorld.java:3: error: unclosed string literal
+        System.out.println("Hello World!);
+                           ^
+1 error
+
+
+d. Omitting the first {
+
+HelloWorld.java:1: error: '{' expected
+public class HelloWorld
+                       ^
+HelloWorld.java:2: error: class, interface, enum, or record expected
+    public static void main(String[] args) {
+                  ^
+HelloWorld.java:4: error: class, interface, enum, or record expected
+    }
+    ^
+3 errors
+
+
+e. Omitting the second {
+
+HelloWorld.java:2: error: ';' expected
+    public static void main(String[] args)
+                                          ^
+HelloWorld.java:5: error: class, interface, enum, or record expected
+}
+^
+2 errors
+
+
+f. Omitting the first }
+
+HelloWorld.java:5: error: reached end of file while parsing
+}
+ ^
+1 error
+
+
+g. Omitting the second }
+
+HelloWorld.java:5: error: reached end of file while parsing
+}
+ ^
+1 error

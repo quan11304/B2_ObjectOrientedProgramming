@@ -1,0 +1,5 @@
+a. 2bc; combining a number with a string yields a string
+b. 5bc; Java calculates the sum of 2+3 before combining it with the string
+c. 5bc; same as part b
+d. bc5; with the brackets, Java calculates the sum of 2+3 before combining it with the string
+e. bc23; without the brackets, Java combine the string with the number 2, then combine the resulting string with the number 3
