@@ -1,1 +1,0 @@
-To find the square root of a number, we can consider that square root as the solution of the quadratic equation x^2 + 0x - c = 0

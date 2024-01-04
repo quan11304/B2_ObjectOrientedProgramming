@@ -1,4 +1,0 @@
-a. Does not. As the division results in an integer.
-b. Does not. As it calculates sum + (1.0 / i) * i, which is not what we're looking for.
-c. Does not. This works under the condition that n is small, so that the limit of an integer is not overflowed.
-d. This computes the sum. Multiplying with 1.0 cast the multiplication to a double value.

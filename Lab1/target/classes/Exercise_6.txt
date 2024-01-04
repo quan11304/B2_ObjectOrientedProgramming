@@ -1,1 +1,0 @@
-Since both 10 and 3 are integer literals, Java sees no need for type conversion and uses integer division. The operation can be written as 10.0/3.0 to achieve the desired results, as now both numbers are considered double literals.

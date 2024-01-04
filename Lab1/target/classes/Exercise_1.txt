@@ -1,4 +1,0 @@
-First statement declares an integer variable t and sets it to the value of a.
-Second statement sets the value of b to that of t.
-Third statement sets the value of a to that of b.
-After these three statements, all three variables will have the same value, which is the original value of a.

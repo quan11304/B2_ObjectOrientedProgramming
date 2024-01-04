@@ -1,1 +1,0 @@
-The formula actually divides the product of G, mass1 and mass2 by r and then multiply the result by r. A pair of brackets should enclose r*r.
