@@ -1,9 +1,9 @@
 public class Circle extends Point {
     // x & y inherited
-    private double r;
+    protected double r;
 
     public double calArea() {
-        return Math.PI * r;
+        return Math.PI * this.r;
     }
 
     // calVolume() inherited
