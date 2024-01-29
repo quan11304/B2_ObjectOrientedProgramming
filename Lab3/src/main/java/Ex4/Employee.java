@@ -52,4 +52,8 @@ public class Employee {
     public void setSalaryExtra(int salaryExtra) {
         this.salaryExtra = salaryExtra;
     }
+
+    public int getIncome() {
+        return this.salaryBasic + (int) (this.salaryExtra * 2.5);
+    }
 }
