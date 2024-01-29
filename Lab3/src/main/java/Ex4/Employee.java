@@ -56,4 +56,15 @@ public class Employee {
     public int getIncome() {
         return this.salaryBasic + (int) (this.salaryExtra * 2.5);
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", department='" + department + '\'' +
+                ", salaryBasic=" + salaryBasic +
+                ", salaryExtra=" + salaryExtra +
+                '}';
+    }
 }
