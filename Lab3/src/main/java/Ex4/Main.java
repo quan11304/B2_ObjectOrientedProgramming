@@ -1,3 +1,6 @@
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Main {
@@ -15,7 +18,17 @@ public class Main {
             int basic = scan.nextInt();
             System.out.print("Extra salary: ");
             int extra = scan.nextInt();
-//            Employee e = new Employee();
+
+            Employee e = new Employee(id,name,dep,basic,extra);
+
+            try {
+                PrintWriter out = new PrintWriter(new FileWriter("employees.txt"));
+                out.write(e.toString());
+                out.close();
+            }
+            catch (IOException err) {
+                err.printStackTrace();
+            }
         }
     }
 }
