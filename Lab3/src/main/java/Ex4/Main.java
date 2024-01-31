@@ -35,14 +35,18 @@ public class Main {
         }
 
         // Reading from file
-        ArrayList<Employee> arr = new ArrayList<>();
         FileInputStream fi = new FileInputStream("employees.txt");
         ObjectInputStream i = new ObjectInputStream(fi);
-        arr.add((Employee) i.readObject());
-
-        // Printing from array
-        for (Employee e : arr) {
-            System.out.println(e.toString());
+        try {
+            while (true) {
+                Employee e = (Employee) i.readObject();
+                System.out.printf("\nEmployee ID: %s",e.getId());
+                System.out.printf("\nEmployee full name: %s",e.getName());
+                System.out.printf("\nEmployee department: %s",e.getDepartment());
+                System.out.printf("\nEmployee income: %d",e.getIncome());
+            }
+        } catch (EOFException e) {
+            System.out.println("\nReading finished.");
         }
     }
 }
